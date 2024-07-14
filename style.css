@@ -15,12 +15,16 @@
     display: flex;
   }
 
-
+/* header start */
+    header{
+        background: rgba(255, 144, 14, 0.1);
+    }
+/* header end */
 
   /* navbar start */
 .navbar{
     justify-content: space-between;
-    background-color: bisque;
+   
     max-width: 1400px;
     margin: 0 auto;
     padding: 20px 50px;
@@ -34,3 +38,42 @@
     color: blueviolet;
 }
   /* navbar end */
+
+  /* banner start  */
+  .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px;
+    
+  }
+  .banner-content{
+        
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center ;
+        margin-bottom: 30px;
+        
+  }
+
+  .btn-primary{
+    padding: 0.5rem;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .banner img{
+    width: 100%;
+
+  }
+
+
+
+  /* responsive media query */
+  @media screen and (max-width: 576px) {
+    .navbar, ul{
+      flex-direction: column;
+    }    
+  }
