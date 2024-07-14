@@ -9,3 +9,28 @@
     font-weight: 400px;
     font-style: normal;
   }
+
+  /* Shared styles */
+  .display-flex{
+    display: flex;
+  }
+
+
+
+  /* navbar start */
+.navbar{
+    justify-content: space-between;
+    background-color: bisque;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 50px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: blueviolet;
+}
+  /* navbar end */
